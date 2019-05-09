@@ -11,4 +11,5 @@ Screenshooter on Qt 4.7
 - Run programs after screenshot saved
 - Simple editor
 - Logs
+- get color by cursor
 - Save window items text
