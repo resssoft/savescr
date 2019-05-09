@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Screamer target="Screamer Radio" version="Czech language file">
+   <AutoUpdate>
+      <StartupQuestion type="string">Chcete, aby Screamer Radio automaticky aktualizoval předvolená rádia&#10;&#13;vždy, když je spuštěn?&#10;&#13;&#10;&#13;Pokud ne, můžete je aktualizovat později ručně&#10;&#13;volbou &quot;Aktualizovat předvolené&quot; v nabídce Soubor.&#10;&#13;&#10;&#13;Doporučeno: Ano</StartupQuestion>
+   </AutoUpdate>
+   <Log>
+      <Message>
+         <Connecting type="string">Připojuji k %s</Connecting>
+         <ConnectionLost type="string">Připojení ztraceno..</ConnectionLost>
+         <DlPlaylist type="string">Najít seznam, %s</DlPlaylist>
+         <EOS type="string">Konec toku..</EOS>
+         <Playing type="string">Přehrávání</Playing>
+         <Started type="string">%s Spuštěno</Started>
+         <Stopped type="string">Zastaveno..</Stopped>
+      </Message>
+   </Log>
+   <Main>
+      <Buttons>
+         <MuteOff type="string">&amp;Ztišit</MuteOff>
+         <MuteOn type="string">Na&amp;hlas</MuteOn>
+         <Next type="string">&gt;</Next>
+         <Play type="string">&amp;Zapnout</Play>
+         <Prev type="string">&lt;</Prev>
+         <RecOff type="string">&amp;Nahrávat</RecOff>
+         <RecOn type="string">&amp;Nenahr.</RecOn>
+         <Stop type="string">&amp;Vypnout</Stop>
+      </Buttons>
+      <ClipboardMenu>
+         <CopyTo type="string">&amp;Do schránky</CopyTo>
+         <IMString type="string">&amp;řetězec do komunikačního pragramu</IMString>
+         <PlayFromClipboard type="string">&amp;Zapnout ze schránky</PlayFromClipboard>
+         <Playlist type="string">S&amp;eznam</Playlist>
+         <RadiostationTitle type="string">Název radiostani&amp;ce</RadiostationTitle>
+         <RadiostationURL type="string">URL radiostanic&amp;e</RadiostationURL>
+         <SourceURL type="string">&amp;Zdrojová URL</SourceURL>
+         <TrackTitle type="string">Název n&amp;ahrávky</TrackTitle>
+      </ClipboardMenu>
+      <FavoritesMenu>
+         <Add type="string">&amp;Přidat k oblíbeným</Add>
+      </FavoritesMenu>
+      <FileMenu>
+         <EditConfig type="string">Editace &amp;konfigurace</EditConfig>
+         <EditFavorites type="string">&amp;Editace oblíbených</EditFavorites>
+         <Exit type="string">K&amp;onec</Exit>
+         <History type="string">&amp;Historie</History>
+         <HistoryEmpty type="string">žádná</HistoryEmpty>
+         <OpenURL type="string">&amp;Otevřít URL</OpenURL>
+         <ReloadConfig type="string">&amp;Obnovit konfiguraci</ReloadConfig>
+         <ReloadFavorites type="string">Obnovit &amp;oblíbené</ReloadFavorites>
+         <ReloadPresets type="string">Obnovit &amp;předvolené</ReloadPresets>
+         <SaveFavorites type="string">&amp;Uložit oblíbené</SaveFavorites>
+         <UpdatePresets type="string">&amp;Aktualizovat předvolené</UpdatePresets>
+      </FileMenu>
+      <HelpMenu>
+         <About type="string">&amp;O programu Screamer Radio</About>
+         <RestoreTrayIcon type="string">&amp;Obnovit ikonu na liště</RestoreTrayIcon>
+      </HelpMenu>
+      <Message>
+         <ConnectionFailure type="string">Připojení selhalo</ConnectionFailure>
+         <NoSources type="string">Není dostupný zdroj.&#13;&#10;Vyberte stanici z předvoleb, nebo oblíbených.</NoSources>
+         <PresetsFailed type="string">Předvolené nemohou být aktualizovány ze serveru, zkuste později.</PresetsFailed>
+         <PresetsOk type="string">Předvolené byly aktualizovány ze serveru!</PresetsOk>
+         <RecordingFailure type="string">Chyba záznamu, nahrávání je vypnuto.</RecordingFailure>
+         <ScreamerError type="string">Screamer Radio: chyba</ScreamerError>
+         <ScreamerWarning type="string">Screamer Radio: varování</ScreamerWarning>
+      </Message>
+      <RecordingMenu>
+         <BeginRecording type="string">Začátek &amp;nahrávání</BeginRecording>
+         <CannotRecord type="string">Chyba, nemohu začít nahrávat..</CannotRecord>
+         <ModeSingleSong type="string">&amp;Jednostopý mód</ModeSingleSong>
+         <OpenFolder type="string">&amp;Otevřít složku nahraných</OpenFolder>
+         <StopRecording type="string">Konec &amp;nahrávání</StopRecording>
+      </RecordingMenu>
+      <SettingsMenu>
+         <AlwaysOnTop type="string">&amp;Vždy navrchu</AlwaysOnTop>
+         <Compressor type="string">&amp;Kompresor (samočinná hlasitost)</Compressor>
+         <Effects type="string">&amp;Efekty</Effects>
+         <Language type="string">&amp;Jazyk</Language>
+         <Preferences type="string">&amp;Předvolby</Preferences>
+         <ReverseStereo type="string">&amp;Obrácené stereo</ReverseStereo>
+         <StereoSeparation type="string">&amp;Kvalita sterea</StereoSeparation>
+      </SettingsMenu>
+      <Status>
+         <Aborting type="string">Ukončování..</Aborting>
+         <Buffering type="string">Tlumení..</Buffering>
+         <Connecting type="string">Připojování..</Connecting>
+         <Downloading type="string">Stahování..</Downloading>
+         <Idling type="string">Odpočívání..</Idling>
+         <Playing type="string">Přehrávání..</Playing>
+         <Recording type="string">Záznam..</Recording>
+      </Status>
+      <Text>
+         <AbortingConnect type="string">Ukončování připojení</AbortingConnect>
+         <Connecting type="string">Připojování</Connecting>
+         <HideWindow type="string">Skrýt okno</HideWindow>
+         <InfoBox type="string">Informace</InfoBox>
+         <NoTitle type="string">Bez názvu skladby</NoTitle>
+         <NotPlaying type="string">Nepřehrává se</NotPlaying>
+         <ParseErrorFavorites type="string">Žádné oblíbené</ParseErrorFavorites>
+         <ParseErrorPresets type="string">Chyba rozboru předvolených</ParseErrorPresets>
+         <PlayBox type="string">Přehrávání</PlayBox>
+         <RecoverWindow type="string">&amp;Obnovení okna</RecoverWindow>
+         <ShowWindow type="string">Zobrazit okno</ShowWindow>
+         <UnknownType type="string">Neznámý typ toku</UnknownType>
+      </Text>
+      <TopMenu>
+         <Clipboard type="string">&amp;Schránka</Clipboard>
+         <Favorites type="string">O&amp;blíbené</Favorites>
+         <File type="string">&amp;Soubor</File>
+         <Help type="string">&amp;Pomoc</Help>
+         <Presets type="string">&amp;Předvolené</Presets>
+         <Recording type="string">&amp;Záznam</Recording>
+         <Settings type="string">&amp;Nastavení</Settings>
+         <Window type="string">&amp;Okno</Window>
+      </TopMenu>
+      <WindowMenu>
+         <LogWindow type="string">&amp;Deník</LogWindow>
+      </WindowMenu>
+   </Main>
+   <Player>
+      <Error>
+         <AllFailed type="string">Všechny zdroje selhaly, vzdávám!</AllFailed>
+         <Connect type="string">Chyba připojení: %s</Connect>
+         <Critical type="string">Kritická chyba, vzdávám: %s</Critical>
+         <InitError type="string">Kritická chyba! Nemohu spustit BASS, přesvědčte se o existenci bass.dll..</InitError>
+         <NoSource type="string">Žádné zdroje v seznamu, vzdávám!</NoSource>
+         <PlaylistFailed type="string">Nemohu obnovit seznam..</PlaylistFailed>
+      </Error>
+      <Message>
+         <Reconnecting type="string">Nový pokus o připojení..</Reconnecting>
+         <WaitRestart type="string">Nový pokus o připojení za %d vteřin..</WaitRestart>
+         <WaitRetry type="string">Pokus o připojení za %d vteřin..</WaitRetry>
+      </Message>
+   </Player>
+</Screamer>
